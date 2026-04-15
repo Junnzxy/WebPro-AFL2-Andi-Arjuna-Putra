@@ -13,7 +13,7 @@
 
 ## 📌 Deskripsi
 
-**LearnHub** adalah platform pembelajaran siswa berbasis web yang sepenuhnya statis dan ringan. Aplikasi ini terdiri dari **4 halaman terpisah** yang saling terhubung: Dashboard, Classroom, Scorecard, dan Settings. Dibangun murni dengan **HTML5**, **CSS3**, dan **Bootstrap 5** — tanpa JavaScript tambahan, tanpa library eksternal (selain Bootstrap CDN), dan tanpa backend. Cocok untuk demo, portofolio, atau prototype sistem learning management system (LMS).
+**EduLearn** adalah platform pembelajaran siswa berbasis web yang sepenuhnya statis dan ringan. Aplikasi ini terdiri dari **4 halaman terpisah** yang saling terhubung: Dashboard, Classroom, Scorecard, dan Settings. Dibangun murni dengan **HTML5**, **CSS3**, dan **Bootstrap 5** — tanpa JavaScript tambahan, tanpa library eksternal (selain Bootstrap CDN), dan tanpa backend. Cocok untuk demo, portofolio, atau prototype sistem learning management system (LMS).
 
 ---
 
@@ -225,20 +225,10 @@ MIT License — bebas digunakan, dimodifikasi, dan didistribusikan untuk keperlu
 
 ---
 
-## 👨‍💻 Kontribusi
-
-Kontribusi sangat diterima! Karena proyek ini minimalis, Anda bisa:
-- Menambahkan halaman baru (misal: `profile.html`)
-- Memperbaiki responsivitas
-- Menambahkan efek CSS keren
-- Mengganti konten dengan data real (dengan JS)
-
----
-
 ## 📧 Kontak
 
 Dibuat oleh **Your Name** — [GitHub](https://github.com/yourusername)
 
 ---
 
-*"LearnHub — belajar jadi lebih mudah, tanpa ribet, tanpa JavaScript overload."* 🚀
+*"EduLearn — belajar jadi lebih mudah, tanpa ribet, tanpa JavaScript overload."* 🚀
