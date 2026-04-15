@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnHub - Scorecard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body { background-color: #f4f7fc; }
+    .sidebar-link { border-radius: 12px; }
+    .sidebar-link:hover { background-color: rgba(13,110,253,0.1); }
+    .rank-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+  </style>
+</head>
+<body>
+<div class="container-fluid px-4 py-3">
+  <div class="row g-4">
+    <div class="col-lg-2 col-md-3">
+      <div class="bg-white rounded-4 shadow-sm p-3"><div class="d-flex align-items-center gap-2 border-bottom pb-3 mb-3"><div class="bg-primary rounded-circle p-2 px-3 text-white fw-bold">EL</div><span class="fw-bold fs-5">EduLearn</span></div>
+      <ul class="nav nav-pills flex-column gap-1">
+        <li class="nav-item"><a class="nav-link text-dark sidebar-link" href="index.html"><i class="bi bi-house-door me-2"></i> Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link text-dark sidebar-link" href="classroom.html"><i class="bi bi-book me-2"></i> Classroom</a></li>
+        <li class="nav-item"><a class="nav-link active bg-primary text-white sidebar-link" href="scorecard.html"><i class="bi bi-trophy me-2"></i> Scorecard</a></li>
+        <li class="nav-item"><a class="nav-link text-dark sidebar-link" href="settings.html"><i class="bi bi-gear me-2"></i> Settings</a></li>
+      </ul></div>
+    </div>
+    <div class="col-lg-10 col-md-9">
+      <h2 class="fw-semibold"><i class="bi bi-bar-chart-steps text-primary"></i> Scorecard & Peringkat</h2>
+      <div class="row mt-3">
+        <div class="col-md-4 mb-3"><div class="bg-white rounded-4 p-3 text-center"><i class="bi bi-star-fill text-warning fs-2"></i><h3 class="mt-2">87</h3><p class="text-muted">Total Skor</p></div></div>
+        <div class="col-md-4 mb-3"><div class="bg-white rounded-4 p-3 text-center"><i class="bi bi-trophy-fill text-danger fs-2"></i><h3 class="mt-2">97</h3><p class="text-muted">Tertinggi Kelas</p></div></div>
+        <div class="col-md-4 mb-3"><div class="bg-white rounded-4 p-3 text-center"><i class="bi bi-people-fill text-primary fs-2"></i><h3 class="mt-2">#4</h3><p class="text-muted">Peringkat dari 32 siswa</p></div></div>
+      </div>
+
+      <!-- Leaderboard -->
+      <div class="bg-white rounded-4 shadow-sm p-4">
+        <h5><i class="bi bi-trophy"></i> Papan Peringkat Kelas "UI/UX Design"</h5>
+        <table class="table table-hover mt-3">
+          <thead><tr><th>Rank</th><th>Nama Siswa</th><th>Skor</th><th>Progress</th></tr></thead>
+          <tbody>
+            <tr><td>🥇 1</td><td>Michael Chen</td><td>97</td><td>14/16 Bab</td></tr>
+            <tr><td>🥈 2</td><td>Jessica Wijaya</td><td>94</td><td>13/16 Bab</td></tr>
+            <tr><td>🥉 3</td><td>Budi Santoso</td><td>89</td><td>12/16 Bab</td></tr>
+            <tr class="table-primary"><td>🏅 4</td><td><strong>Chef Juna (Anda)</strong></td><td><strong>87</strong></td><td>11/16 Bab</td></tr>
+            <tr><td>5</td><td>Sarah Putri</td><td>82</td><td>10/16 Bab</td></tr>
+          </tbody>
+        </table>
+        <div class="alert alert-secondary mt-2"><i class="bi bi-graph-up"></i> Butuh 10 poin lagi untuk naik ke peringkat 3! Selesaikan quiz chapter 3.</div>
+      </div>
+
+      <!-- Riwayat Kuis -->
+      <div class="bg-white rounded-4 shadow-sm p-4 mt-4">
+        <h5><i class="bi bi-clock-history"></i> Riwayat Nilai Kuis</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between"><span>Kuis Chapter 1: UI/UX Dasar</span><span class="badge bg-success">90/100</span></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Kuis Chapter 2: Visual Design</span><span class="badge bg-success">85/100</span></li>
+          <li class="list-group-item d-flex justify-content-between"><span>Kuis Chapter 3: Prototyping</span><span class="badge bg-secondary">Belum dikerjakan</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
