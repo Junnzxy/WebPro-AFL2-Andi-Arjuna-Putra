@@ -227,7 +227,7 @@ MIT License — bebas digunakan, dimodifikasi, dan didistribusikan untuk keperlu
 
 ## 📧 Kontak
 
-Dibuat oleh **Your Name** — [GitHub](https://github.com/yourusername)
+Dibuat oleh **Andi Arjuna Putra** — [GitHub](https://github.com/yourusername)
 
 ---
 
